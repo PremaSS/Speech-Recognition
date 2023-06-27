@@ -9,6 +9,25 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    #h1-elem {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #speech-instructions {
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
+
 .hide {
     display: none;
 }
