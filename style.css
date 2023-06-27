@@ -1,0 +1,90 @@
+body {
+    background-color: #F5F5DC;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: cursive;
+    color: #45230B;
+    /* -webkit-text-stroke: 0.5px #583e3e; */
+    /* text-stroke: 2px #000000; */
+}
+
+textarea {
+    width: 590px;
+    height: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+.control {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #8B4513;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.btn-block {
+    display: block;
+    /* width: 100px; */
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mt-2 {
+    margin-top: 2px;
+}
+
+.mt-1 {
+    display: flex;
+    margin-top: 1px;
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.onstart-animation {
+    animation: blink 1.5s infinite;
+
+}
