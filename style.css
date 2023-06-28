@@ -15,7 +15,7 @@ body {
     }
 
     #h1-elem {
-        font-size: 4vw;
+        font-size: 5vw;
         text-align: center;
     }
 
@@ -50,7 +50,7 @@ body {
 }
 
 h1 {
-    font-size: 10vw;
+    font-size: 6vw;
     font-family: cursive;
     color: #45230B;
 }
@@ -61,6 +61,7 @@ textarea {
     height: 200px;
     margin-bottom: 5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
     border-radius: 5px;
 }
 
@@ -85,7 +86,7 @@ textarea {
     border: none;
     background-color: #8B4513;
     color: #fff;
-    font-size: 3vw;
+    font-size: 2vw;
     cursor: pointer;
     border-radius: 5px;
 }
