@@ -14,7 +14,7 @@ body {
         padding: 5%;
     }
 
-    #h1-elem {
+    .h1 {
         font-size: 5vw;
         text-align: center;
     }
